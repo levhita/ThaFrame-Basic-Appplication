@@ -1,0 +1,4 @@
+RewriteEngine on
+#Use in case of mod_alias
+#RewriteBase /ThaFrame-Basic-Appplication
+RewriteRule ^f/(.+) gateway.php?file=$1 [NC]
